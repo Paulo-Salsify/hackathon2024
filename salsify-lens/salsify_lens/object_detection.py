@@ -9,7 +9,7 @@ from utils import load_sound, play_sound, stop_sound
 
 image_size = (224, 224)
 THRESHOLD = 0.2  # 0.0 - 1
-model_to_use = 'annotations_coca_cola_model.h5'
+model_to_use = 'annotations_magic_mouse_model.h5'
 
 
 class VideoObjectDetection:

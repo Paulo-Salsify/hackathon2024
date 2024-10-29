@@ -1,0 +1,8 @@
+config_version=5
+
+[application]
+
+config/name="Salsify-Lens-Product-Photos"
+run/main_scene="res://scene.tscn"
+config/features=PackedStringArray("4.3", "Forward Plus")
+config/icon="res://icon.svg"

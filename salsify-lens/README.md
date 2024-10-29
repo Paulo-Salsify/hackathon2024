@@ -1,8 +1,3 @@
-Sources:
-cnn_drowsiness_model.h5: https://github.com/abhishek351/Driver-drowsiness-detection-CNN-Keras-OpenCV/blob/main/CNN__model.h5
-opencv kernels: https://github.com/opencv/opencv/tree/master/data/haarcascades
-Code strattegy inspired from: https://www.christianhaller.me/blog/projectblog/2020-06-27-Drowsiness-Detector/
-
 To run:
 Install with:
 poetry update
@@ -12,7 +7,13 @@ create folder/file at (if not exists): saves/logs/main.log
 
 Run:
 cd into auto_safe folder
-Run with: poetry run python video_sleep_detection.py
+- Run annotated model with:
+poetry run python object_detection.py
+(on model_to_use var change default model input)
+- Train new annotated model with:
+poetry run python train_annotated.py.py
+- Train unsupervisioned model with:
+poetry run train_model.py
 
 Notes:
 on 1st run will ask for camera permission and fail. Allow and re-run.

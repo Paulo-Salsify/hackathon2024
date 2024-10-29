@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://b7ykobmlh0p05"]
+
+[ext_resource type="Texture2D" uid="uid://ctyr8iykgam4p" path="res://images/wisky.png" id="1_gnl1x"]
+[ext_resource type="Script" path="res://script_product.gd" id="2_85mdx"]
+[ext_resource type="Texture2D" uid="uid://dqsj86rpooicb" path="res://images/coca-cola-shelfs.jpg" id="2_ux0a2"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Product" type="Sprite3D" parent="."]
+transform = Transform3D(0.07, 0, 0, 0, 0.07, 0, 0, 0, 0.07, 0, 0, 0.00476754)
+texture = ExtResource("1_gnl1x")
+script = ExtResource("2_85mdx")
+
+[node name="Background" type="Sprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6.50008)
+texture = ExtResource("2_ux0a2")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.24251)
